@@ -14,7 +14,7 @@ jest.mock('../services/api', () => ({
     getStoryIds: jest.fn(),
 }));
 
-test('reders the story container component with a story', async() => {
+test('reders the story container component with a story', async () => {
     useInfiniteScroll.mockImplementation(()=> ({
         count: STORY_INCREMENT
     }));
