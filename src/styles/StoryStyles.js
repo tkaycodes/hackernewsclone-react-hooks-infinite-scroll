@@ -24,7 +24,6 @@ export const StoryTitle = styled.h1`
 
     a {
         color: #2e2e2e;
-        background-color: #f8dc3d;
         text-decoration: none;
     }
 `;

@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useMemo} from 'react';
+import React, {useEffect, useState } from 'react';
 import { getStoryIds } from '../services/api';
 import {Story} from '../components/Story';
 import {
@@ -11,7 +11,6 @@ export const StoriesContainer = () => {
 
     const { count } = useInfiniteScroll();
     const [storyIds, setStoryIds] = useState([]);
-    const test = useInfiniteScroll();
 
     useEffect(() => {
         getStoryIds().then(data => setStoryIds(data));

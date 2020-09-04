@@ -28,4 +28,10 @@ export const StoriesContainerWrapper = styled.main`
   max-width: 1140px;
   padding: 20px 15px;
   margin: auto;
+  background: rgb(246, 246, 239);
+
+  > h1 {
+    background: rgb(255, 102, 0);
+    font-size: 20px;
+  }
 `;
